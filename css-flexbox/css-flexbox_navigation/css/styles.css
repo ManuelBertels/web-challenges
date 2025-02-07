@@ -15,6 +15,12 @@ a {
 ul {
   list-style: none;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .header {
