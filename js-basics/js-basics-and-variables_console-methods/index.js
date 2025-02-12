@@ -1,4 +1,10 @@
-console.clear();
+let coding = "happy coding";
+
+let hacking = "happy hacking";
+
+let error = "this is an error";
+
+console.log(coding + " " + hacking + " " + error);
 
 // The exercise starts here!
 
