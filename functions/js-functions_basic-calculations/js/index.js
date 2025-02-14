@@ -11,25 +11,35 @@ Each function should return the result of its respective calculation:
 */
 
 function add(a, b) {
+  return (result = a + b);
   // Implement the addition logic here
 }
 
 function subtract(a, b) {
+  return (result = a - b);
   // Implement the subtraction logic here
 }
 
 function multiply(a, b) {
+  return (result = a * b);
   // Implement the multiplication logic here
 }
 
 function divide(a, b) {
+  return (result = a / b);
   // Implement the division logic here
 }
 
 function remainder(a, b) {
+  return (result = a % b);
   // Implement the remainder (modulo) logic here
 }
 
+console.log(add(1, 1));
+console.log(subtract(2, 2));
+console.log(multiply(2, 2));
+console.log(divide(2, 2));
+console.log(remainder(2, 2));
 /*
 These console.assert statements verify that your functions work correctly.
 If there is no output in the console, your implementations are correct.
