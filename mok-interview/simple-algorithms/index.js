@@ -1,15 +1,37 @@
 // Find the maximum
 function maxOfTwoNumbers(num1, num2) {
   // TODO:
+  if (num1 > num2) {
+    console.log("nummer 1 ist größer");
+  } else {
+    console.log("Nummer 2 ist größer");
+  }
 }
+
+maxOfTwoNumbers(40, 30);
 
 // Find the longest word
 
 const words = ["Jaws", "Up", "Alien", "Gravity", "Inception", "Psycho"];
 
 function findLongestWord(words) {
-  // TODO:
+  let i = 0;
+  while (words.length > i) {
+    let längeErstesWord = words[i].length;
+    i++;
+
+    while (words.length > i) {
+      if (words[i].length > längeErstesWord) {
+        längeErstesWord = words[i].length;
+        console.log(words[i]);
+      } else {
+        i++;
+      }
+    }
+  }
 }
+
+findLongestWord(words);
 
 // Calculate the sum
 
@@ -22,7 +44,7 @@ function sumNumbers(numbers) {
     container = container + numbers[i];
     i++;
   }
-  console.log(container);
+  console.log(`Die summe beträgt ${container}`);
 
   // TODO:
 }
